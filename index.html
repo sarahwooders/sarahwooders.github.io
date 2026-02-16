@@ -4,58 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
     <title>Sarah Wooders</title>
 </head>
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="me_yellow.png">
-            <h2>Sarah Wooders</h2>
-            <a href="https://twitter.com/sarahwooders"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/sarah-wooders-9243b0aa/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/sarahwooders"><i class="fab fa-github"></i></a>
-            <a href="mailto:sarahwooders@gmail.com"><i class="fa fa-envelope"></i></a>
+    <div class="container">
+        <h1>Sarah Wooders</h1>
+        <div class="social-icons">
+            <a href="https://scholar.google.com/citations?user=P5Bw-1oAAAAJ" title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+            <a href="https://github.com/sarahwooders" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/wooders" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/sarahwooders" title="X"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
-        <div class="section-2">
-            <h2>About</h2>
-            <p>I'm a fourth year PhD student at UC Berkeley advised by <a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a>, working in <a href="https://sky.cs.berkeley.edu/">Sky Computing</a> and previously <a href="https://rise.cs.berkeley.edu/">RISELab</a>. I am broadly interested in systems for ML, with a focus on data systems and the cloud.</p><br>
 
-            <p>Before Berkeley, I founded <a href="https://allparel.com">Glisten AI</a>, which builds AI to categorize and tag product data and was part of Y Combinator's W20 batch. My undergraduate degree is from MIT, where I studied computer science and math and did research at <a href="http://csail.mit.edu">CSAIL</a> in the <a href="http://supertech.mit.edu/">Supertech Group</a>. 
-
-            </p>
-
-             <h2>Open Source</h2>
-             <a href="https://github.com/cpacker/MemGPT">MemGPT</a> Long term memory for LLM agents <a href="https://arxiv.org/abs/2310.08560">[paper]</a> <a href="https://discord.gg/9GEQrxmVyE">[discord]</a><br>
-             <a href="https://skyplane.org/en/latest/">Skyplane</a> Blazing fast bulk data transfer for any cloud <a href="https://arxiv.org/abs/2210.07259">[paper]</a> <a href="https://medium.com/@paras_jain/skyplane-110x-faster-data-transfers-on-any-cloud-8f0165c1d711">[blog]</a><br>
-                <a href="https://github.com/feature-store/ralf">ralf</a> Incremental maintenance for feature & embedding stores <a href="">[paper]</a><br>
-
-
-            <h2>Selected Publications</h2>
-
-            <h4>Cloudcast: High-Throughput, Cost-Aware Overlay Multicast in the Cloud</h4> 
-            <p><i>NSDI 2024 </i><a href="https://www.usenix.org/conference/nsdi24/presentation/wooders">[link]</a></p>
-            <p><b>Sarah Wooders</b>, Shu Liu, Paras Jain, Simon Mo, Joseph E. Gonzalez, Vincent Liu, Ion Stoica</p>
-
-            <h4>RALF: Accuracy-Aware Scheduling for Feature Store Maintenance</h4> 
-            <p><i>VLDB 2024 </i><a href="https://dl.acm.org/doi/abs/10.14778/3632093.3632116">[link]</a></p>
-            <p><b>Sarah Wooders</b>, Simon Mo, Amit Narang, Kevin Lin, Ion Stoica, Joseph M. Hellerstein, Natacha Crooks, Joseph E. Gonzalez</p>
-
-            <h4>Skyplane: Optimizing Transfer Cost and Throughput Using Cloud-Aware Overlays</h4> 
-            <p><i>NSDI 2023 </i><a href="https://www.usenix.org/conference/nsdi23/presentation/jain">[link]</a></p>
-            <p>Paras Jain, Sam Kumar, <b>Sarah Wooders</b>, Shishir G. Patil, Joseph E. Gonzalez, Ion Stoica</p>
-
-                       
-            <h2>Press / blogs</h2>
-            <a href="https://medium.com/riselab/feature-stores-the-data-side-of-ml-pipelines-7083d69bff1c">[RISELab]</a><i> Feature Stores: The Data Side of ML Pipelines</i><br>
-            <a href="https://techcrunch.com/2020/03/13/glisten-uses-computer-vision-to-break-down-fashion-photos-to-their-styles-and-parts/">[Techcrunch]</a><i> Glisten uses computer vision to break products into their most important parts</i><br>
-            <a href="http://news.mit.edu/2019/taking-the-lead-shaping-future-of-computing-and-artificial-intelligence-0227">[MIT News]</a><i> Taking the lead in shaping the future of computing and artificial intelligence</i><br>
-            <a href="https://www.memsql.com/blog/adaptive-compression-in-memsql/">[MemSQL]</a><i> Faster Data Loading with Adaptive Compression</i><br>
-            <a href="https://underscore.vc/blog/fashion-brought-to-you-by-ai/">[Underscore]</a><i> Fashion Brought to You by AI</i> <br>
-
-
+        <div class="bio">
+            <p>Sarah Wooders is the co-founder and CTO of <a href="https://www.letta.com">Letta</a>, building agents that learn over time, through memory that is model-agnostic and interpretable.</p>
+            <p>She holds a PhD in Computer Science from <a href="https://sky.cs.berkeley.edu/">UC Berkeley</a>, where she was advised by <a href="https://people.eecs.berkeley.edu/~istoica/">Ion Stoica</a> and <a href="https://people.eecs.berkeley.edu/~jegonzal/">Joseph E. Gonzalez</a> and focused on systems for AI. Her undergraduate degree is from MIT in computer science and mathematics.</p>
         </div>
+
+        <h2>Open Source</h2>
+        <ul class="link-list">
+            <li><a href="https://github.com/letta-ai/letta-code">Letta Code</a> <span class="desc">&mdash; The memory-first coding agent</span></li>
+            <li><a href="https://github.com/cpacker/MemGPT">MemGPT</a> <span class="desc">&mdash; Long-term memory for LLM agents</span></li>
+            <li><a href="https://skyplane.org">Skyplane</a> <span class="desc">&mdash; Fast bulk data transfers across clouds</span></li>
+        </ul>
+
+        <h2>Press</h2>
+        <ul class="link-list">
+            <li><a href="https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/">Letta emerges from stealth</a> <span class="year">(TechCrunch, 2024)</span></li>
+        </ul>
+
+        <h2>Talks & Interviews</h2>
+        <ul class="link-list">
+            <li><a href="https://www.youtube.com/watch?v=MeSUOt7IaOI">The Missing Piece for Continual Learning</a> <span class="year">(Lisbon AI, 2026)</span></li>
+            <li><a href="https://www.youtube.com/watch?v=zQK8apxUIS8">From Academia to Agentic AI</a> <span class="year">(Felicis, 2025)</span></li>
+            <li><a href="https://www.youtube.com/watch?v=JgBKaI6MNpQ">Weaviate Podcast #117</a> <span class="year">(2025)</span></li>
+            <li><a href="https://www.youtube.com/watch?v=EXC25u_qJqY">Fast and Cheap Data Sharing Across Clouds</a> <span class="year">(AI Conference, 2023)</span></li>
+        </ul>
+
+        <div class="footer"></div>
     </div>
+
 </body>
 </html>
